@@ -67,6 +67,12 @@ client.on('message', async message => {
 if(message.content ==='/join'){
 if(message.member.voice.channel){
 const connection = await message.member.voice.channel.join();
+const broadcast = client.voice.createBroadcast();
+const ytdl = require("discord-ytdl-core");
+broadcast.play(ytdl('https://www.youtube.com/watch?v=4QXCPuwBz2E', { filter: 'audioonly' }));
+for (const connection of client.voice.connections.values()) {
+  connection.play(broadcast);
+}
 }else{
 message.reply('Necesitas entrar a un canal primero');
 }
