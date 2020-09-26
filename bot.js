@@ -88,4 +88,4 @@ const connection = await message.member.voice.channel.leave();
 }
 }
 });
-client.login('NzU4OTI3NDA5NjU4OTg2NTE3.X22EOg.q90mu4C8l7q3MtVf7hl6JqxDgR8');
+client.login(process.env.BOT_TOKEN);
