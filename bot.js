@@ -32,12 +32,6 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
- if(message.content === '!test') {
- const attachment = new MessageAttachment('./Infected Mushroom - The Pretender.mp3');
- message.channel.send(`${message.author}, aca tenes tu archivo`, attachment);
-}
-});
-client.on('message', message => {
 if(message.content === '!test2') {
 const embed = new MessageEmbed()
 .setTitle('TEST')
