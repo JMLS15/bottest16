@@ -67,9 +67,6 @@ client.on('message', async message => {
 if(message.content ==='/join'){
 if(message.member.voice.channel){
 const connection = await message.member.voice.channel.join();
-const broadcast = client.voice.createBroadcast();
-const dispatcher = broadcast.play('https://drive.google.com/file/d/1mAAHTQXJfSiNdCeHe9Y-ZO3Lt5vHWaNj/view');
-connection.play(broadcast);
 }else{
 message.reply('Necesitas entrar a un canal primero');
 }
