@@ -29,11 +29,6 @@ client.on('message', message => {
 
 	}
 	
-	if(message.author.id == '238762286922072064'){
-	        message.react("🇰")
-		message.react("🇵")
-
-	}
 	
 	
 	
