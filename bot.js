@@ -18,11 +18,11 @@ client.on('ready', () => {
 client.on('message', message => {
 	
 	if(message.author.id == '435607040812122122'){
-		message.react("819468764637954099")
+		message.react(`${819468764637954099}`)
 	}
 	
 	if(message.author.id == '238762286922072064'){
-		message.react("824126495999000576")
+		message.react(`${824126495999000576}`)
 	}
 	
 	
