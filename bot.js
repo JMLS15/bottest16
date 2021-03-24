@@ -21,10 +21,6 @@ client.on('message', message => {
                 message.react("<:okpelon: 819468764637954099")
 	}
 	
-	if(message.content == "https://cdn.discordapp.com/attachments/428654179217571842/824353547423842393/SPOILER_Jenkut_completo.png"){
-		message.delete()
-		message.channel.send("<:okpelon: 819468764637954099")
-	}
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
 	
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
