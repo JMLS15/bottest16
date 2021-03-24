@@ -17,13 +17,8 @@ client.on('ready', () => {
 });
 client.on('message', message => {
 	
-	if(message.author.id === '435607040812122122'){
-		message.reply(':okpelon:')
-		message.delete()
-	}
-	
 	if(message.content ==="Fernando Pelon"){
-		message.reply('sies')
+		message.channel.send("sies")
 	}
 	
 	
