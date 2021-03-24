@@ -17,8 +17,9 @@ client.on('ready', () => {
 });
 client.on('message', message => {
 	
-	if(message.content ==="Fernando Pelon"){
-		message.channel.send("sies")
+	if(message.content.startsWith ==="Fernando"){
+		message.react(819468764637954099)
+		
 	}
 	
 	
