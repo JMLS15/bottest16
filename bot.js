@@ -25,8 +25,6 @@ client.on('message', message => {
 		message.react("🇱")
 		message.react("🇴")
 		message.react("🇳")
-		
-
 	}
 	
 	
