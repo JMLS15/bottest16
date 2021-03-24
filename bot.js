@@ -18,13 +18,13 @@ client.on('ready', () => {
 client.on('message', message => {
 	
 	if(message.author.id == '435607040812122122'){
-		const emoji = client.emojis.find(emoji => emoji.name==="okpelon");
-		message.react(`${emoji}`)
+		message.react("<:okpelon: 819468764637954099>") 
+
 	}
 	
 	if(message.author.id == '238762286922072064'){
-	        const emoji2 = client.emojis.find(emoji => emoji.name==="Manute");
-		message.react(`${emoji2}`)
+		message.react("<:Manute: 824126495999000576>") 
+
 	}
 	
 	
