@@ -21,6 +21,10 @@ client.on('message', message => {
 		message.react('819468764637954099')
 	}
 	
+	if(message.author.id=='238762286922072064'){
+		message.react('824126495999000576')
+	}
+	
 	
 	
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
