@@ -23,7 +23,7 @@ client.on('message', message => {
 	}
 	
 	if(message.author.id == '238762286922072064'){
-		message.react("<:chad1: 824132367924330506") 
+		message.react("<:chad1: 768927946253140018") 
 
 	}
 	
