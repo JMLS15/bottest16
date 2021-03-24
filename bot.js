@@ -20,6 +20,10 @@ client.on('message', message => {
 	if(message.author.id == '435607040812122122'){
                 message.react("<:okpelon: 819468764637954099")
 	}
+	if(message.content == "https://cdn.discordapp.com/attachments/428654179217571842/824353547423842393/SPOILER_Jenkut_completo.png"){
+	        message.delete()
+	        message.channel.send("<:okpelon: 819468764637954099")
+	}
 	
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
 	
@@ -32,5 +36,6 @@ client.on('message', message => {
 	} catch(error){
 	console.error(error);
 	message.reply('there was an error trying to execute that command!');
+	}
 });
 client.login(process.env.BOT_TOKEN);
