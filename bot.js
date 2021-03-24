@@ -18,8 +18,6 @@ client.on('ready', () => {
 client.on('message', message => {
 	
 	if(message.author.id == '435607040812122122'){
-		message.react("⭕")
-	        message.react("🇰")
 		message.react("🇵")
 		message.react("🇪")
 		message.react("🇱")
