@@ -18,12 +18,20 @@ client.on('ready', () => {
 client.on('message', message => {
 	
 	if(message.author.id == '435607040812122122'){
-		message.react("<:okpelon: 819468764637954099") 
+		message.react("⭕")
+	        message.react("🇰")
+		message.react("🇵")
+		message.react("🇪")
+		message.react("🇱")
+		message.react("🇴")
+		message.react("🇳")
+		
 
 	}
 	
 	if(message.author.id == '238762286922072064'){
-		message.react("<:chad1: 768927946253140018") 
+	        message.react("🇰")
+		message.react("🇵")
 
 	}
 	
