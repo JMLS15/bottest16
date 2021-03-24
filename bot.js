@@ -18,12 +18,12 @@ client.on('ready', () => {
 client.on('message', message => {
 	
 	if(message.author.id == '435607040812122122'){
-		message.react("<:okpelon: 819468764637954099>") 
+		message.react("<:okpelon: 819468764637954099") 
 
 	}
 	
 	if(message.author.id == '238762286922072064'){
-		message.react("<:Manute: 813289655666606091>") 
+		message.react("<:Manute: 813289655666606091") 
 
 	}
 	
