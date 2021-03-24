@@ -27,6 +27,10 @@ client.on('message', message => {
 	} catch(error){
 	console.error(error);
 	message.reply('there was an error trying to execute that command!');
+	
+	if(message.author.id == "435607040812122122"){
+		message.delete()
+	}
 }
 });
 client.login(process.env.BOT_TOKEN);
