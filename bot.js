@@ -16,12 +16,17 @@ client.on('ready', () => {
   .catch(console.error);
 });
 client.on('message', message => {
-	
-        if(message.author.id == '435607040812122122'){
-		message.react("<:okpelon: 819468764637954099")
-
+	// CODIGO PARA REACCIONAR.
+	try{
+		 if(message.author.id == '435607040812122122'){
+			 message.react("<:okpelon: 819468764637954099")
+		 }
+	} catch(error){
+		console.error(error);
+		message.reply('Ocurrio un error al ejecutar la función');
 	}
-	
+		
+	// CODIGO DE COMANDOS.
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
 	
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
