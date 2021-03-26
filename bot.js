@@ -16,6 +16,12 @@ client.on('ready', () => {
   .catch(console.error);
 });
 client.on('message', message => {
+	
+        if(message.author.id == '435607040812122122'){
+		message.react("<:okpelon: 819468764637954099")
+
+	}
+	
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
 	
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
@@ -27,11 +33,6 @@ client.on('message', message => {
 	} catch(error){
 	console.error(error);
 	message.reply('there was an error trying to execute that command!');
-	}
-	
-	if(message.author.id == '435607040812122122'){
-		message.react("<:okpelon: 819468764637954099")
-
 	}
 	
 });
