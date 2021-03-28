@@ -25,6 +25,19 @@ client.on('message', message => {
 		console.error(error);
 		message.reply('Ocurrio un error al ejecutar la función');
 	}
+	
+	try{
+		 if(message.author.id == '435607040812122122'){
+			message.member.setNickname("Pelon Pelonete Peloncio")
+		 }
+	} catch(error){
+		console.error(error);
+		message.reply('Ocurrio un error al ejecutar la función');
+	}
+	
+	
+	
+	
 		
 	// CODIGO DE COMANDOS.
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
