@@ -28,7 +28,7 @@ client.on('message', message => {
 	
 	try{
 		 if(message.author.id == '238762286922072064'){
-			message.member.setNickname("A")
+			message.member.setNickname("AAAAA CAAAAA")
 		 }
 	} catch(error){
 		console.error(error);
