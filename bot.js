@@ -26,15 +26,6 @@ client.on('message', message => {
 		message.reply('Ocurrio un error al ejecutar la función');
 	}
 	
-	try{
-		 if(message.author.id == '238762286922072064'){
-			message.member.setNickname("AAAAA CAAAAA")
-		 }
-	} catch(error){
-		console.error(error);
-		message.reply('Ocurrio un error al ejecutar la función');
-	}
-	
 	
 	
 	
