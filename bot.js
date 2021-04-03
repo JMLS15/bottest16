@@ -17,14 +17,14 @@ client.on('ready', () => {
 });
 client.on('message', message => {
 	// CODIGO PARA REACCIONAR.
-	try{
+	/*try{
 		 if(message.author.id == '435607040812122122'){
 			 message.react("<:okpelon: 819468764637954099")
 		 }
 	} catch(error){
 		console.error(error);
 		message.reply('Ocurrio un error al ejecutar la función');
-	}
+	}*/
 	
 	
 	
